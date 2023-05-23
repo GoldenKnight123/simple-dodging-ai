@@ -21,3 +21,5 @@
 Input(Flatten Layer): 14 <br/>
 Hidden Layer 1(Dense Layer): 16 <br/>
 Output (Dense Layer with Softmax): 9 <br/>
+<br/><br/>
+# Highest Score Reached by Pretrained Model: 607
