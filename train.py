@@ -83,7 +83,7 @@ class DodgeBulletsEnv(gym.Env):
         super(DodgeBulletsEnv, self).__init__()
 
         # Define the action space and observation space
-        self.action_space = spaces.Discrete(9)  # Five discrete actions: 0, 1, 2, 3, 5
+        self.action_space = spaces.Discrete(9)  # Nine discrete actions: 0, 1, 2, 3, 4, 5, 6, 7, 8
         self.observation_space = spaces.Box(low=0, high=255, shape=(1, 6), dtype=np.uint8)
 
         # Initialise the game variables
